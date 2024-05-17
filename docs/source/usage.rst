@@ -1,14 +1,14 @@
 Model description
-=====
+===== ============
 
 Plain English description
-------------
+-------------------------
 
  The TIMES-Ireland Model produces energy system pathways for energy supply and demand in Ireland consistent with either a carbon budget or a decarbonisation target. It calculates the lowest cost configuration of energy fuels and technologies which meet future energy demands, while respecting technical, environmental, economic, social, and policy constraints. Key inputs and constraints include primary
  energy resource availability and costs, the technical and cost evolution of new mitigation options, and maximum feasible uptake rates of new technologies. Alternatively, TIM can be used to assess the implications of certain policies, namely regulatory or technology target setting (for example, biofuels blending obligation or the sales/stock share target for electric vehicles).
 
 TIMES modelgenerator
-----------------
+---------------------
 
 TIMES (The Integrated MARKAL-EFOM System) is a bottom-up optimisation model generator for energy environment systems analysis at various levels of spatial, temporal, and sectoral resolutions (Loulou et al., 2016a, b). The TIMES code, written in GAMS and available under an open-source licence (IEA-ETSAP, 2020), is developed and maintained by the Energy Technology Systems Analysis Programme (ETSAP; https://iea-etsap.org/, last access: 18 May 2022), a Technology Collaboration Programme (TCP) of the International Energy Agency (IEA), established in 1976. TIMES models can have single or several regions
  and are typically rich in technology detail, used for mediumto long-term energy system analysis and planning at a regional, national, or global scale. TIMES is a linear optimisation, technoeconomic, partial
