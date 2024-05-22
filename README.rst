@@ -1,9 +1,8 @@
-Template for the Read the Docs tutorial
+Repository to host the TIM documentation on ReadTheDocs platform
 =======================================
 
-This GitHub template includes fictional Python library
-with some basic Sphinx docs.
+The open-source documentation for the TIMES Ireland Model
 
-Read the tutorial here:
+Read the documentation here:
 
-https://docs.readthedocs.io/en/stable/tutorial/
+https://the-times-ireland-model-documentation.readthedocs.io/en/latest/
