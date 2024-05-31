@@ -18,3 +18,33 @@ The user inputs the following to the model generator:
 TIMES outputs the optimal investment and operation level of all energy technologies that meet future energy service demands at the least cost, while respecting user constraints. The model also produces corresponding energy flows, emissions, and marginal prices of energy and emissions flows.
 
 .. [#] https://iea-etsap.org/
+
+.. _ss:system_overview:
+
+Model architecture
+----------------------------
+
+.. figure:: figures/TIM_RES.png
+   :scale: 60%
+   :align: center
+   :alt: Simplified representation of reference energy system in TIM
+
+   Simplified representation of reference energy system in TIM
+
+Figure 1 illustrates a simplified Reference Energy System (RES) within the TIMES-Ireland Model (TIM). It delineates the structure and energy flows, encompassing two primary components:
+
+* **Supply-side:** Encompasses energy resources (domestic fossil fuels and renewables), fuel production and conversion technologies (biorefineries, hydrogen production, power plants), and transmission/distribution infrastructure (gas pipelines, power grid).
+* **Demand-side:** Covers end-use sectors (transport, residential, etc.) and their corresponding energy service demands (passenger transport, freight, hot water, etc.).
+
+Energy resources, both domestic and imported, are processed and distributed across the country. End-use technologies consume these energy commodities to satisfy the energy service demands of various sectors. Greenhouse gas (GHG) emissions, arising from fossil fuel combustion and industrial processes, are meticulously tracked at the fuel supply, electricity generation, and sectoral consumption levels.
+
+The model's base year is 2018, with all energy flows, emissions, and energy technology stocks calibrated to the 2018 Irish energy balance [SEAI2019].
+
+**Discount Rate:**
+
+The discount rate, signifying the degree to which future values are discounted to the present, is a pivotal parameter in the TIMES objective function.  A *social discount rate* reflects societal preferences regarding present versus future costs and benefits, typically lower than a *financial discount rate* used by firms for investment decisions. The Irish government employs a social discount rate of 4% in this model, aligned with the Social Rate of Time Preference methodology outlined in the Public Spending Code [OCallaghan2018]. This rate is consistent with recommendations by Garcia-Gusano et al. (2016) for a maximum social discount rate of 4-5% in Energy System Optimization Models (ESOMs).
+
+**Technology-Specific Discount Rates:**
+
+Technology-specific discount rates, also known as hurdle rates, are often used in ESOMs to model investment decisions from the individual or industry perspective. They account for market imperfections, financial limitations, and behavioral factors that can hinder the adoption of novel or capital-intensive technologies. These parameters are not incorporated in the core TIM version, as it focuses on long-term energy system pathways from a societal viewpoint. However, model variants can be developed to simulate real-world policy and behavioral impacts, potentially including hurdle rates [Aryanpur2022].
+
