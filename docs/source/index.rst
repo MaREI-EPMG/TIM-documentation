@@ -9,3 +9,4 @@ ment (Glynn et al., 2019), to which Ireland is a signatory. TIM is a new model a
 
    usage
    model_desc
+   industry
