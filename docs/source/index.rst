@@ -8,4 +8,4 @@ ment (Glynn et al., 2019), to which Ireland is a signatory. TIM is a new model a
 .. toctree::
 
    usage
-   api
+   model_desc
