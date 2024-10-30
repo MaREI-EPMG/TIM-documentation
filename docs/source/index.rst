@@ -5,8 +5,7 @@ TIM is the successor to the Irish TIMES model (Ó Gallachóir et al., 2020), whi
 ment (Glynn et al., 2019), to which Ireland is a signatory. TIM is a new model and has been developed to better inform increased national climate mitigation ambition, to take into account the changing energy technology landscape, and to take advantage of new advances in energy systems optimisation modelling techniques.
 
 
-..caution::
-
+.. caution::
    This documentation is under development and cannot be cited or used at current state.
 
 
