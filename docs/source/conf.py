@@ -3,7 +3,7 @@
 # -- Project information
 
 project = 'The TIMES Ireland Model'
-copyright = '2024, ERI, UCC'
+copyright = '2025, ERI, UCC'
 author = 'EPMG'
 
 release = '0.1'

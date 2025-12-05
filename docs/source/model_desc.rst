@@ -141,7 +141,7 @@ TIM provides detailed representation of the following sectors:
 
 * Residential buildings (space heating, water heating, cooking, appliances, lighting)
 * Commercial and public services (similar end-uses as residential)
-* Industry (process heat, steam, mechanical drive, feedstocks)
+* Industry (process heat, steam, mechanical drive)
 * Transport (passenger cars, buses, rail, freight, aviation, shipping)
 * Agriculture (machinery, heating, other energy uses)
 
@@ -160,7 +160,7 @@ Time Horizon and Resolution
 
 TIM typically models the period from 2018 to 2050 or 2070, with:
 
-* **Milestone years:** 5-year intervals (2020, 2025, 2030, etc.)
+* **Milestone years:** 1, 5, 10-year intervals (2020, 2025, 2030, etc.)
 * **Intra-annual time slices:** Representing seasonal and diurnal variations in energy supply and demand patterns
 * **Technology vintages:** Tracking investments by year of installation to model technology turnover
 
@@ -169,11 +169,11 @@ Economic Parameters
 
 **Discount Rate:**
 
-The discount rate, signifying the degree to which future values are discounted to the present, is a pivotal parameter in the TIMES objective function. A *social discount rate* reflects societal preferences regarding present versus future costs and benefits, typically lower than a *financial discount rate* used by firms for investment decisions. The Irish government employs a social discount rate of 4% in this model, aligned with the Social Rate of Time Preference methodology outlined in the Public Spending Code [OCallaghan2018]. This rate is consistent with recommendations by Garcia-Gusano et al. (2016) for a maximum social discount rate of 4-5% in Energy System Optimization Models (ESOMs).
+The discount rate, signifying the degree to which future values are discounted to the present, is a pivotal parameter in the TIMES objective function. A *social discount rate* reflects societal preferences regarding present versus future costs and benefits, typically lower than a *financial discount rate* used by firms for investment decisions. The Irish government employs a social discount rate of 4% in this model, aligned with the Social Rate of Time Preference methodology outlined in the Public Spending Code [O'Callaghan2018]. This rate is consistent with recommendations by Garcia-Gusano et al. (2016) for a maximum social discount rate of 4-5% in Energy System Optimization Models (ESOMs).
 
 **Technology-Specific Discount Rates:**
 
-Technology-specific discount rates, also known as hurdle rates, are often used in ESOMs to model investment decisions from the individual or industry perspective. They account for market imperfections, financial limitations, and behavioral factors that can hinder the adoption of novel or capital-intensive technologies. These parameters are not incorporated in the core TIM version, as it focuses on long-term energy system pathways from a societal viewpoint. However, model variants can be developed to simulate real-world policy and behavioral impacts, potentially including hurdle rates [Aryanpur2022].
+Technology-specific discount rates, also known as hurdle rates, are often used in ESOMs to model investment decisions from the individual or industry perspective. They account for market imperfections, financial limitations, and behavioral factors that can hinder the adoption of novel or capital-intensive technologies. These parameters are not incorporated in the core TIM version, as it focuses on long-term energy system pathways from a societal viewpoint. However, model variants can be developed to simulate real-world policy and behavioral impacts, potentially including hurdle rates.
 
 **Currency and Cost Basis:**
 
