@@ -39,4 +39,5 @@ TIM is developed and maintained by the Sustainability Institute at University Co
 
    model_desc
    industry
+   residential
    references
